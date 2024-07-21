@@ -47,7 +47,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
   
-}     
+}
 button:hover,
 .button:focus {
   color: #212121;
@@ -72,6 +72,13 @@ button:hover,
   vertical-align: middle;
   width: 20px;
   height: 20px;
+}
+
+.icon2 {
+  padding: 0px 0px 0px 0px;
+  vertical-align: middle;
+  /* width: 20px */
+  height: 25px;
 }
 
 /* Brand Styles
@@ -691,6 +698,16 @@ button:hover,
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
   filter: brightness(90%);
+}
+
+/* Punch */
+.button.button-punch {
+  color: #000000;
+  background-color: #ffa299;
+}
+.button.button-punch:hover,
+.button.button-punch:focus {
+  filter: brightness(95%);
 }
 
 /* Read.cv */
